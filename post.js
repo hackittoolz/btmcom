@@ -16,6 +16,7 @@ async function notify(message){
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         cache: false,
+        async: false,
         success: function (resp) {
             console.log(resp);
         },
